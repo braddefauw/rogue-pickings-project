@@ -1,0 +1,122 @@
+/* BASE STYLES */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+}
+
+/* GRID */
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 398px;
+    height: 200px;
+    float: left;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+}
+
+/* HEADER */
+
+header h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 23px;
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* IMAGE */
+img {
+    border-top: 5px solid #77a466;
+    border-bottom: 5px solid #77a466;
+}
+
+/* WELCOME */
+#welcome h2 {
+    color: #77a466;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#welcome p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* BOTTOM NAV */
+#bottom-nav h4{
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+#bottom-nav .special{
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#bottom-nav .review{
+    font-size: 16px;
+    line-height: 21px;
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+#address {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#contact {
+    border-right: none;
+}
+
+.pad {
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+footer span {
+    color: #77a466;
+    text-transform: lowercase;
+    font-family: 'Galada', cursive;
+}
